@@ -1,0 +1,93 @@
+.form {
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+  margin: 25px auto;
+
+  background-color: whitesmoke;
+
+  border: 10px solid teal;
+  border-radius: 35px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+}
+.hrStyle {
+  border: 3px solid teal;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.btn {
+  margin: 15px;
+  padding: 10px 30px;
+
+  color: white;
+  background-color: purple;
+
+  border: none;
+  border-radius: 10px;
+
+  box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.disabled {
+  margin: 15px;
+  padding: 10px 30px;
+
+  color: darkgray;
+  /* background-color: purple;   */
+
+  border: none;
+  border-radius: 10px;
+
+  box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: rgb(88, 0, 88);
+}
+label,
+h1 {
+  color: teal;
+}
+
+input[type="text"] {
+  width: 35%;
+}
+
+select {
+  margin-left: 15px;
+}
+input[type="checkbox"] {
+  margin-left: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+#model {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.55);
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.model-content {
+  width: 60%;
+  background-color: white;
+  color: green;
+  border-radius: 10px;
+  text-align: center;
+}
